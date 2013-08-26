@@ -1,0 +1,39 @@
+#StartButton {
+	height: 400px;
+	width: 400px;
+	color: rgb(0,200,100);
+	background-color: rgb(240,250,100);
+	font-size: 50px;
+	border-radius:50px;
+	font-weight:bold;
+	border:10px solid #ffcc00;
+	cursor: pointer;
+}
+
+#StartButton:hover{background-color:rgba(240,250,100,0.5);}
+
+#StartButton:active{position:relative;top:2px;}
+
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	color: blue;
+}
+
+#StartButtonDiv {
+	
+	text-align: center;
+	position: absolute;
+	left: 2%;
+	right: 2%;
+	top: 150px;
+}
+
+body {
+	background-color: rgb(150,255,255);
+	}
+	
+div {
+	//border-style: solid;
+}
