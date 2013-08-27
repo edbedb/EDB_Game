@@ -36,9 +36,9 @@ function canvasApp() {
 	}
 	
 	function onMouseMove(e) { // keeps track of the x,y coords of mouse
-		var rect = theCanvas.getBoundingClientRect();
-		mouseX = e.clientX-rect.left;
-		mouseY = e.clientY-rect.top;
+		//var rect = theCanvas.getBoundingClientRect();
+	//	mouseX = e.clientX-rect.left;
+	//	mouseY = e.clientY-rect.top;
 	}
 	
 	function initGame() {
@@ -58,6 +58,9 @@ function canvasApp() {
 	function onMouseClick(e){
 		// x starts game.  depending on whose turn it is, draws appropriate letter 
 		// in position that was clicked.
+		var rect = theCanvas.getBoundingClientRect();
+		mouseX = e.clientX-rect.left;
+		mouseY = e.clientY-rect.top;
 		var stringtodraw;
 		if (game_over == false){  // if game is over, don't allow anything to be drawn
 			var thesect = whichsector(mouseX, mouseY); // determine which region the click was in.
