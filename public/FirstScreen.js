@@ -1,7 +1,7 @@
 $(function() {
 	$( "#playonescreen" ).click(function() {
-		//window.location = "127.0.0.1:3000";
-		$("html").load("http://127.0.0.1:3000");
+		window.location.href = "http://localhost:3000/onescreen";
+	//	$("html").load("/");
 	//	alert( "Handler for playonescreen() called.");
 	});
 });

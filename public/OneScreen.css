@@ -6,11 +6,11 @@ div {
 	//border-style: solid;
 }
 div#canvasdiv { 
-	width:600px;
-	height:600px;
+	width:550px;
+	height:550px;
 	background-color: rgb(255,255,150);
 	top: 0px;
-	left: 100px;
+	left: 125px;
 	margin: auto;
 	border-width: 6px;
 	border-style: solid;
@@ -21,16 +21,26 @@ div#buttoncontain {
 	position: absolute;
 	top: 0px;
 	left: 750px;
-	height:600px;
-	width:100px;
+	height:550px;
+	width:50px;
 }
+h1 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	color: blue;
+}
+
 div#container {
-	position: absolute;
-	top 0px;
-	left: 200px;
+	position: relative;
+	//top 0px;
+	//left: 200px;
 	width:800px;
-	height:600px;
-	margin: 50px auto;
+	height:550px;
+	//height:550px;
+	//width: 75%;
+	margin-left: auto;
+	margin-right:auto;
 }
 canvas {
 }

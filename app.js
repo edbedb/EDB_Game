@@ -28,7 +28,9 @@ if ('development' == app.get('env')) {
 }
 
 //app.get('/', routes.index);
-app.get('/',function(req,res) { res.sendfile("public/CanvasPlay.htm");
+app.get('/',function(req,res) { res.sendfile("public/FirstScreen.htm");
+});
+app.get('/onescreen',function(req,res) { res.sendfile("public/OneScreen.htm");
 });
 app.get('/users', user.list);
 app.get('/hello.txt', function(req, res){

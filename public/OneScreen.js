@@ -1,4 +1,4 @@
-var thewidth=600, theheight=600; // dimensions of canvas for game
+var thewidth=550, theheight=550; // dimensions of canvas for game
 								 // note: must match width/height specifications in html!!
 								 
 var theboard;    // keeps track of the board state -- 9 element array, each element is:
