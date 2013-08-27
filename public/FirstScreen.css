@@ -1,4 +1,4 @@
-#StartButton {
+.StartButton {
 	height: 400px;
 	width: 400px;
 	color: rgb(0,200,100);
@@ -10,9 +10,9 @@
 	cursor: pointer;
 }
 
-#StartButton:hover{background-color:rgba(240,250,100,0.5);}
+.StartButton:hover{background-color:rgba(240,250,100,0.5);}
 
-#StartButton:active{position:relative;top:2px;}
+.StartButton:active{position:relative;top:2px;}
 
 h1 {
 	text-align: center;
