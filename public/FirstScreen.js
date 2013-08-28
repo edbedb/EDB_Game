@@ -1,12 +1,12 @@
 $(function() {
 	$( "#playonescreen" ).click(function() {
-		window.location.href = "http://localhost:3000/onescreen";
+		window.location.href = "/onescreen";
 	});
 	$( "#playcomputer" ).click(function() {
-		window.location.href = "http://127.0.0.1:3000/computer";
+		window.location.href = "/computer";
 	});
 	$( "#findamatch" ).click(function() {
-		window.location.href = "http://localhost:3000/match";
+		window.location.href = "/match";
 	});
 });
 	
