@@ -34,6 +34,8 @@ app.get('/onescreen',function(req,res) { res.sendfile("public/OneScreen.htm");
 });
 app.get('/computer',function(req,res) { res.sendfile("public/playcomputer.htm");
 });
+app.get('/match',function(req,res) { res.sendfile("public/playcomputer.htm");
+});
 app.get('/users', user.list);
 app.get('/hello.txt', function(req, res){
 	res.send('Hello World');

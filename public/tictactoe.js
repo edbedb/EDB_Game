@@ -48,6 +48,7 @@ function canvasApp(playComputer) {
 	}
 	
 	function pickrandomsect() {
+		// randomly picks an open spot on the board
 		var openspots = [];
 		for (var i=0;i<9;++i){
 			if (theboard[i] == 0) {
@@ -75,7 +76,8 @@ function canvasApp(playComputer) {
 													// and we see if the game has been won
 					x_move = ! x_move;
 					if (checkwin()) game_over = true;
-					else if (playComputer) {
+					else if (playComputer) { // if game isn't over and playing a computer,
+											 // computer makes its move
 						setTimeout( function(){
 							if (x_move) stringtodraw = "X";
 							else stringtodraw = "O";
